@@ -68,6 +68,7 @@
       host: "127.0.0.1",     // Localhost (default: none)
       port: 7545,            // Standard Ethereum port (default: none)
       network_id: 5777,       // Any network (default: none)
+      from:"0xECFa6964FDac34CFDF6347Bd9b450a673Ce6240e",
      },
      sepolia: {
        provider: () => new HDWalletProvider(MNEMONIC, 'https://rpc.sepolia.org'),
