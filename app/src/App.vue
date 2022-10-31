@@ -23,7 +23,7 @@
 <script>
 const Web3 = require("web3");
 import { onMounted, ref } from "vue";
-import ABIZombies from "../../contract/build/contracts/Zombies.json";
+import ABIZombies from "../public/resources/Zombie.json";
 
 export default {
   name: "App",
